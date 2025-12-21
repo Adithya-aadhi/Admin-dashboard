@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, sans-serif;
+}
+
+.dashboard {
+  display: flex;
+  min-height: 100vh;
+  background-color: #f3f4f6;
+}
+
+.admin-panel {
+
+  background-color: #000;   
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.admin-panel h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.admin-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.admin-buttons button {
+  background: transparent;
+  color: white;
+  border: none;
+  padding: 10px;
+  text-align: left;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.admin-buttons button:hover {
+  background-color: #1f2937;
+}
+
+.user-details {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+}
+
+nav h2 {
+  font-size: 22px;
+}
+
+nav button {
+  background-color: #000;  
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+nav button:hover {
+  background-color: #1f1f1f;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 20px;
+  width: 320px;
+  background-color: #aeaeae;  
+  border-radius: 12px;
+  color: white;
+}
+
+form input {
+  padding: 8px 10px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  outline: none;
+}
+
+form input::placeholder {
+  color: #e0e0e0;
+}
+
+form button {
+  background-color: #000;   
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #1f1f1f;
+}
+
+.user-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.user-card {
+  width: 300px;  
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.user-card img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;  
+}
+
+.handle-buttons {
+  display: flex;
+  gap: 6px;
+  margin-top: 6px;
+}
+
+.user-card button {
+  padding: 6px 10px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  background-color: #e5e7eb;
+  color: #000;
+}
+
+.user-card button:hover {
+  background-color: #d1d5db;
+}
+
+.user-card button:nth-child(3) {
+  background-color: #000;
+  color: white;
+}
+
+.user-card button:nth-child(3):hover {
+  background-color: #1f1f1f;
+}
+
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.4);
+  backdrop-filter: blur(4px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  width:fit-content;
+  text-align: center;
+}
+
+.modal-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.modal-card button {
+  background-color: #000;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.modal-card button:hover {
+  background-color: #1f1f1f;
+}
