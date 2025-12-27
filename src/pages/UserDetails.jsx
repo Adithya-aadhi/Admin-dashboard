@@ -1,8 +1,8 @@
 import { useState } from "react";
-import InitialUsers from "./Initialusers";
-import Header from "./Header";
+import InitialUsers from "../data/Initialusers";
+import Header from "../layout/Header";
 import View from "./VIew";
-import Form from "./Form";
+import Form from "../pages/Form";
 import UserList from "./Userlist";
 export default function UserDetails() {
   const [user, setUser] = useState({

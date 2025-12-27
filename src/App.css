@@ -32,20 +32,20 @@
   gap: 12px;
 }
 
-.admin-buttons button {
-  background: transparent;
+
+.admin-buttons a {
+  text-decoration: none;
   color: white;
-  border: none;
   padding: 10px;
-  text-align: left;
   border-radius: 6px;
-  cursor: pointer;
   transition: 0.2s;
+  display: block;
 }
 
-.admin-buttons button:hover {
+.admin-buttons a:hover {
   background-color: #1f2937;
 }
+
 
 .user-details {
   flex: 1;

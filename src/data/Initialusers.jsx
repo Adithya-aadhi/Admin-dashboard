@@ -1,6 +1,6 @@
-import p1 from "./assets/p1.jpg"; // Mark Zuckerberg
-import p2 from "./assets/p2.jpg"; // Mark Ruffalo
-import p3 from "./assets/p3.jpg"; // Henry Cavill
+import p1 from "../assets/p1.jpg"; // Mark Zuckerberg
+import p2 from "../assets/p2.jpg"; // Mark Ruffalo
+import p3 from "../assets/p3.jpg"; // Henry Cavill
 
 const InitialUsers = [
   {
